@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <ul>
+            {% for question in questions %}
+                <li>{{question}}</li>
+                <li>
+                   <ul>
+                       {% for choice in question.choices.all %}
+                            <li>{{ choice }} <li>
+                        {% endfor %}
+                   </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
