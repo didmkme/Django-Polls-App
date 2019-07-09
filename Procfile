@@ -1,1 +1,1 @@
-web: gunicorn D:\project\mysite\mysite\wsgi.py --log-file -
+web: gunicorn mysite\wsgi.py --log-file -
