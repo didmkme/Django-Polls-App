@@ -41,7 +41,7 @@ ALLOWED_HOSTS = ['pollsherokudjangoapp.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.pools',
+    'polls.apps.polls',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
